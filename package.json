@@ -6,5 +6,6 @@
   },
   "scripts": {
     "build:css": "tailwindcss -i ./main.css -o ./dist/output.css --watch"
+   "build:css": "npx tailwindcss -i ./main.css -o ./output.css --watch" 
   }
 }
